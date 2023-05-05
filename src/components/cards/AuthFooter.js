@@ -11,11 +11,7 @@ const AuthFooter = () => {
                 justifyContent={matchDownSM ? 'center' : 'space-between'}
                 spacing={2}
                 textAlign={matchDownSM ? 'center' : 'inherit'}
-            >
-                <Typography variant="subtitle2" color="secondary" component="span">
-                    &copy; Text
-                </Typography>
-            </Stack>
+            ></Stack>
         </Container>
     );
 };
